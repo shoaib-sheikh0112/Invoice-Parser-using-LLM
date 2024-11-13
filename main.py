@@ -4,7 +4,7 @@ from PIL import Image
 import streamlit as st
 
 
-genai.configure(api_key="AIzaSyBhCu2Q2qHjyI4YvKYbEfGOuWEicVknGuU")
+genai.configure(api_key="Enter_Gemini_API")
 
 ##Gemini model and get respones
 def get_gemini_response(input,image,prompt):
